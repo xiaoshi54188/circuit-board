@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "GIG",
+    "GTG",
+    " I "
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "I": "minecraft:iron_nugget",
+    "T": "minecraft:redstone_torch"
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:not_gate"
+  }
+}

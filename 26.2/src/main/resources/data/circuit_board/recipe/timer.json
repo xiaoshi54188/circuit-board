@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " G ",
+    "RQR",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "R": "minecraft:redstone",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:timer"
+  }
+}

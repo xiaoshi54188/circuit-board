@@ -1,0 +1,48 @@
+name: Bug 报告
+description: 模组功能异常但游戏没有崩溃
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: mod-version
+    attributes:
+      label: 模组版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft 与加载器版本
+      placeholder: 例如 1.21.1 / NeoForge 21.1.164
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 放置 ...
+        2. 右键 ...
+        3. 出现 ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 日志（可选）
+      render: text
+    validations:
+      required: false

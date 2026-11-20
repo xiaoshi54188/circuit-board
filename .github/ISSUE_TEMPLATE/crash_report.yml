@@ -1,0 +1,45 @@
+name: 崩溃报告
+description: 游戏在启动或运行过程中崩溃
+title: "[Crash] "
+labels: ["crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先在 issues 中搜索是否有相同问题。
+  - type: input
+    id: mod-version
+    attributes:
+      label: 模组版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft 与加载器版本
+      placeholder: 例如 1.21.1 / NeoForge 21.1.164
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 崩溃发生的场景
+      description: 什么时候崩的？正在做什么操作？
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 崩溃日志
+      description: 粘贴 crash-reports 或 latest.log 的关键部分，或直接上传文件
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: modlist
+    attributes:
+      label: 模组列表
+      description: 是否只在装了其他模组时出现
+    validations:
+      required: false

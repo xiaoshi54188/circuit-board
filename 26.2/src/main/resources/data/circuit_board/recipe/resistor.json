@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    " G "
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "G": "minecraft:gold_nugget"
+  },
+  "result": {
+    "count": 3,
+    "id": "circuit_board:resistor"
+  }
+}

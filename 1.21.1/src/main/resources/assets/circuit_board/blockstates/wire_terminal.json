@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "circuit_board:block/wire_terminal"
+    }
+  }
+}

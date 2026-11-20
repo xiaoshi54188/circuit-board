@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "circuit_board:item/nand_gate"
+  }
+}

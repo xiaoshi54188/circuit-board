@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "GIG",
+    "RQR",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "I": "minecraft:iron_nugget",
+    "R": "minecraft:redstone",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:xnor_gate"
+  }
+}

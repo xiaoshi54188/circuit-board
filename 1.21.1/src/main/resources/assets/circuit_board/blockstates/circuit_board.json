@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "part=nw,facing=up": {
+      "model": "circuit_board:block/circuit_board_up"
+    },
+    "part=nw,facing=down": {
+      "model": "circuit_board:block/circuit_board_down"
+    },
+    "part=nw,facing=north": {
+      "model": "circuit_board:block/circuit_board_north"
+    },
+    "part=nw,facing=south": {
+      "model": "circuit_board:block/circuit_board_south"
+    },
+    "part=nw,facing=east": {
+      "model": "circuit_board:block/circuit_board_east"
+    },
+    "part=nw,facing=west": {
+      "model": "circuit_board:block/circuit_board_west"
+    },
+    "part=ne,facing=up": {
+      "model": "circuit_board:block/circuit_board_up"
+    },
+    "part=ne,facing=down": {
+      "model": "circuit_board:block/circuit_board_down"
+    },
+    "part=ne,facing=north": {
+      "model": "circuit_board:block/circuit_board_north"
+    },
+    "part=ne,facing=south": {
+      "model": "circuit_board:block/circuit_board_south"
+    },
+    "part=ne,facing=east": {
+      "model": "circuit_board:block/circuit_board_east"
+    },
+    "part=ne,facing=west": {
+      "model": "circuit_board:block/circuit_board_west"
+    },
+    "part=sw,facing=up": {
+      "model": "circuit_board:block/circuit_board_up"
+    },
+    "part=sw,facing=down": {
+      "model": "circuit_board:block/circuit_board_down"
+    },
+    "part=sw,facing=north": {
+      "model": "circuit_board:block/circuit_board_north"
+    },
+    "part=sw,facing=south": {
+      "model": "circuit_board:block/circuit_board_south"
+    },
+    "part=sw,facing=east": {
+      "model": "circuit_board:block/circuit_board_east"
+    },
+    "part=sw,facing=west": {
+      "model": "circuit_board:block/circuit_board_west"
+    },
+    "part=se,facing=up": {
+      "model": "circuit_board:block/circuit_board_up"
+    },
+    "part=se,facing=down": {
+      "model": "circuit_board:block/circuit_board_down"
+    },
+    "part=se,facing=north": {
+      "model": "circuit_board:block/circuit_board_north"
+    },
+    "part=se,facing=south": {
+      "model": "circuit_board:block/circuit_board_south"
+    },
+    "part=se,facing=east": {
+      "model": "circuit_board:block/circuit_board_east"
+    },
+    "part=se,facing=west": {
+      "model": "circuit_board:block/circuit_board_west"
+    }
+  }
+}

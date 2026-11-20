@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IGI",
+    "GBG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "B": {
+      "item": "circuit_board:circuit_board"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:copy_board"
+  }
+}

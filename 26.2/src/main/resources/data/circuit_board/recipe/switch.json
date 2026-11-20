@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " I ",
+    "GLG",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "G": "minecraft:gold_nugget",
+    "L": "minecraft:lever"
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:switch"
+  }
+}

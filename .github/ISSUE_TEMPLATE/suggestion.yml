@@ -1,0 +1,26 @@
+name: 功能建议
+description: 希望模组增加或调整的内容
+title: "[Suggestion] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的想法
+      description: 想加什么方块 / 物品 / 机制？
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么需要它
+      description: 它解决了什么玩法上的问题，或者补充了哪条流程？
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考（可选）
+      description: 现实原型、其他模组的类似实现、参考图等
+    validations:
+      required: false

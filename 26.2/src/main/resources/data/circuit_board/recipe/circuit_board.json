@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SGS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:sand",
+    "G": "minecraft:gold_nugget"
+  },
+  "result": {
+    "count": 1,
+    "id": "circuit_board:circuit_board"
+  }
+}

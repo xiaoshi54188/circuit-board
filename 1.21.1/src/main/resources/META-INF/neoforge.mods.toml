@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="xiaoshi54188"
+description='''红石电路板：在 2x2 的板子上铺红石线路、插电容 / 二极管 / 三极管 / 非门等零件，板边会长出又进又出的针脚，还能用电线连到别的电路板或红石线路，蹲下用复制电路板可以整块复制。'''
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

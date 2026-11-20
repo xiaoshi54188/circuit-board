@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "N N",
+    " C ",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "circuit_board:copper_wire"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "circuit_board:fly_wire"
+  }
+}

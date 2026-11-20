@@ -1,5 +1,7 @@
 # 红石电路板 · Circuit Board
 
+[![Build](https://github.com/xiaoshi54188/circuit-board/actions/workflows/build.yml/badge.svg)](https://github.com/xiaoshi54188/circuit-board/actions/workflows/build.yml)
+
 把一整套红石逻辑电路做进**一块 2×2 方块大的电路板**里：在板子上画线路、插零件，板边会自动长出针脚，
 再用电线 / 跳线把针脚接到别的电路板、红石灯、门、活塞、红石粉上。
 
